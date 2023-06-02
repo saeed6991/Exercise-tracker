@@ -1,0 +1,2 @@
+const user_exercises = await Exercise.find({ user_id: id, date: {$gte: from, $lte: to} }).limit(limit).exec();
+console.log(user_details)
